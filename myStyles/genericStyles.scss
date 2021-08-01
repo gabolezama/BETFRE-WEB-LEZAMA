@@ -42,13 +42,13 @@ form{
 /* Efecto arcoris sobre formulario*/
 //Realizo un EACH sobre un array y con los datos del array 
 //controlo la llamada de los colores desde la variable mapa
-            $i:1;
-            @each $color in $arrayColores{
-                .__field-#{$i}{
-                    background-color: map-get($mapaColores, $color);
-                }
-                $i: $i + 1
-            } 
+//            $i:1;
+//            @each $color in $arrayColores{
+//              .__field-#{$i}{
+//                    background-color: map-get($mapaColores, $color);
+//                }
+//                $i: $i + 1
+//            } 
     
 .divWhite{
     display: flex;
