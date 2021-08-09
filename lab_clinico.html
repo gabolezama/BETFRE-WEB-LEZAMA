@@ -3,18 +3,24 @@
 
     <head>
         <meta charset="UTF-8">
+        <title>Laboratorio Clínico</title>
         <meta name="keywords" content="Laboratorio Clinico Examenes Salud">
         <meta name="description" content="Se dá a conocer información de contacto y general sobre BETFRE">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="./imagenes/microscopio-3.png" type="image/x-icon">
-        <title>Laboratorio Clínico</title>
+        <!-- Mis Estilos -->
         <LINK REL=StyleSheet HREF="./myStyles/genericStyles.css" TYPE="text/css" MEDIA=screen>
         <LINK REL=StyleSheet HREF="./myStyles/queryStyles.css" TYPE="text/css" MEDIA=screen>
         <LINK REL=StyleSheet HREF="./myStyles/gridStyles.css" TYPE="text/css" MEDIA=screen>
+        <!-- Estilos Booststrap -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <!-- Animaciones WOW -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <!-- Social -->
+        <link rel="stylesheet" href="/myStyles/font.css">
     </head>
 
     <body>
@@ -23,8 +29,8 @@
                 <a class="--aLab" href="index.html"><img class="img-thumbnail img-fluid" src="./imagenes/lab_clinico.jfif"
                         alt="Laboratorio Clinico"></a>
             </div>
-            <h1 class="--h1">Laboratorio Clínico</h1>
-            <p class="--p1">El Laboratorio Clínico es una especialidad de la rama de la salud encargada del análisis
+            <h1 class="--h1 animate__animated animate__bounceInLeft">Laboratorio Clínico</h1>
+            <p class="--p1 animate__animated animate__bounceInLeft">El Laboratorio Clínico es una especialidad de la rama de la salud encargada del análisis
                 profesional
                 de muestras de fluidos corporales, a los cuales se les aplican procedimientos químicos y la interpretación
                 clínica para poder determinar con precisión qué puede estar sucediendo a nivel microscópico dontro de un
@@ -34,7 +40,7 @@
                 en el rubro de la salud ofreciendo sus servicios de análisis de de fluidos biológicos
                 tanto en seres humanos como para mascotas.</p>
         </div>
-        <div class="nav">
+        <div class="nav animate__animated animate__bounceInLeft animate__delay-1s">
             <div class="btn-group ">
                 <div class="btn-group">
                     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" id="drop1">
@@ -59,40 +65,34 @@
                 </div>
             </div>
         </div>
-        <div class="gridLc">
-            <div class="__uno">
-                <p>Hematología</p>
-                <img class="itemEfecto" src=".\imagenes\hematologia.jfif" alt="Hematología" />
-                <p>Análisis de la composición de la sangre</p>
+        <div class="gridLc animate__animated animate__bounceInLeft animate__delay-2s">
+            <div class="__uno --hemato --itemEfecto">
+                <p class="--texto-encima">Hematología</p>
+                <p class="--centrado">Análisis de la composición de la sangre</p>
             </div>
-            <div class="__dos">
+            <div class="__dos --ori --itemEfecto">
                 <p>Orina</p>
-                <img class="itemEfecto" src=".\imagenes\orina.jfif" alt="Orina" />
                 <p>Análisis del fluido del sistema urinario</p>
             </div>
-            <div class="__tres">
+            <div class="__tres --para --itemEfecto">
                 <p>Parasitología</p>
-                <img class="itemEfecto" src=".\imagenes\parasitologia.jfif" alt="Parasitología" />
                 <p>Análisis de distintos tipos de microoganismos parasitos</p>
             </div>
-            <div class="__cuatro">
+            <div class="__cuatro --quim --itemEfecto">
                 <p>Química</p>
-                <img class="itemEfecto" src=".\imagenes\quimica.jfif" alt="Química Sanguínea" />
                 <p>Análisis de las cualidades químicas de la sangre</p>
             </div>
-            <div class="__cinco">
+            <div class="__cinco --hec --itemEfecto">
                 <p>Heces</p>
-                <img class="itemEfecto" src=".\imagenes\heces.jfif" alt="Heces" />
                 <p>Análisis de afecciones del sistema digestivo</p>
             </div>
-            <div class="__seis">
+            <div class="__seis --perf --itemEfecto">
                 <p>Perfiles</p>
-                <img class="itemEfecto" src=".\imagenes\perfil.jfif" alt="Perfiles" />
                 <p>Perfiles determinados específicamente por el médico</p>
             </div>
         </div>
 
-        <div class="--h4">Desea Agendar un turno con nosotros? Por favor llene el siguiente
+        <div class="--h4 animate__animated animate__bounceInLeft animate__delay-3s">Desea Agendar un turno con nosotros? Por favor llene el siguiente
             <a href="index.html #formulario_turno"> Formulario de Turnos</a>
         </div>
 
@@ -111,6 +111,12 @@
                         <li class="breadcrumb-item"><a href="nosotros.html">Nosotros</a></li>
                     </ol>
                 </nav>
+                <div class="__divSocial">
+                    <p class="--p2">Ubicanos en nuestras redes sociales: </p>
+                    <span class="icon-facebook2"></span>
+                    <span class="icon-instagram"></span>
+                    <span class="icon-whatsapp"></span>
+                </div>
             </footer>
         </div>
     </body>

@@ -1,13 +1,12 @@
 .gridLc{
     display:grid;
-    // padding: 5px;
-    margin-top: 5%;
     row-gap: 10px;
     column-gap: 10px;
+
     div{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: start;
         align-items: center;
         text-align: center;
         padding-top: 1rem;
@@ -21,6 +20,54 @@
     img{
         width: 10rem;
         height: 5rem;
+    }
+    .--hemato{
+        background-image: url(/imagenes/hematologia.jfif);
+        background-size: cover;
+    }
+    .--ori{
+        background-image: url(/imagenes/orina.jfif);
+        background-size: cover;
+    }
+    .--para{
+        background-image: url(/imagenes/parasitologia.jfif);
+        background-size: cover;
+    }
+    .--quim{
+        background-image: url(/imagenes/quimica.jfif);
+        background-size: cover;
+    }
+    .--hec{
+        background-image: url(/imagenes/heces.jfif);
+        background-size: cover;
+    }
+    .--perf{
+        background-image: url(/imagenes/perfil.jfif);
+        background-size: cover;
+    }
+    .--ofta{
+        background-image: url(/imagenes/oftalmologia.jfif);
+        background-size: cover;
+    }
+    .--inter{
+        background-image: url(/imagenes/internista.jfif);
+        background-size: cover;
+    }
+    .--gine{
+        background-image: url(/imagenes/ginecologia.jfif);
+        background-size: cover;
+    }
+    .--psic{
+        background-image: url(/imagenes/psicologia.jfif);
+        background-size: cover;
+    }
+    .--pedi{
+        background-image: url(/imagenes/pediatria.jfif);
+        background-size: cover;
+    }
+    .--cardi{
+        background-image: url(/imagenes/cardiologia.jfif);
+        background-size: cover;
     }
 }
 

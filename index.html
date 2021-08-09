@@ -7,14 +7,20 @@
         <meta name="keywords" content="Betfre Web Portal Turnos">
         <meta name="description" content="Página principal de Betfre Web y asignacion de turnos">
         <link rel="shortcut icon" href="./imagenes/microscopio-3.png" type="image/x-icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Mis Estilos -->
         <LINK REL=StyleSheet HREF="./myStyles/genericStyles.css" TYPE="text/css" MEDIA=screen>
         <LINK REL=StyleSheet HREF="./myStyles/queryStyles.css" TYPE="text/css" MEDIA=screen>
         <LINK REL=StyleSheet HREF="./myStyles/gridStyles.css" TYPE="text/css" MEDIA=screen>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Estilos Booststrap -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <!-- Animaciones -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <!-- Social -->
+        <link rel="stylesheet" href="/myStyles/font.css">
     </head>
 
     <body>
@@ -23,8 +29,8 @@
                 <a class="--aIndex" href="index.html"><img class="img-thumbnail img-fluid"
                         src="./imagenes/banner_betfre.jpg" alt="Betfre Banner"></a>
             </div>
-            <h1 class="--h1">UNIDAD DE DIAGNÓSTICO BETFRE</h1>
-            <p class="--p1">En la Unidad de Diagnóstico Betfre, estamos orgullosos
+            <h1 class="--h1 animate__animated animate__bounceInLeft">UNIDAD DE DIAGNÓSTICO BETFRE</h1>
+            <p class="--p1 animate__animated animate__bounceInLeft">En la Unidad de Diagnóstico Betfre, estamos orgullosos
                 de poder prestarle nuestros servicios médicos especializados y de laboratorio,
                 al público en general, respaldados por una trayectoria de más de 30 años,
                 nuestra empresa se guía por los valores de solidaridad y empatía con nuestros
@@ -33,7 +39,7 @@
                 de mejor manera su salud.
             </p>
         </div>
-        <div class="nav">
+        <div class="nav animate__animated animate__bounceInLeft animate__delay-1s">
             <div class="btn-group">
                 <div class=" btn-group">
                     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" id="drop1">
@@ -59,7 +65,7 @@
             </div>
         </div>
 
-        <div class="row justify-content-center">
+        <div class="row justify-content-center animate__animated animate__bounceInLeft animate__delay-2s">
             <div class="__divIndex col-sm-4">
                 <img class="--imgIndex" src=".\imagenes\lab_clinico.jfif" alt="Ir a Laboratorio Clínico"
                     data-toggle="collapse" data-target="#demo" />
@@ -80,11 +86,11 @@
             </div>
         </div>
 
-        <div class="__preForm">
+        <div class="__preForm animate__animated animate__bounceInLeft animate__delay-3s">
             <p>¿Desea agendar un turno con nosotros? Por favor llene el siguiente formulario.</p>
             <h3 class="--h3">FORMULARIO DE TURNOS</h3>
         </div>
-        <form id="formulario_turno" action="" enctype="multipart/form-data">
+        <form class="animate__animated animate__bounceInLeft animate__delay-3s" id="formulario_turno" action="" enctype="multipart/form-data">
             <div class="__field-1">
                 <label class="--etiq" for="nombre">Nombres:</label>
                 <input type="text" class="form-control" placeholder="Nombre" id="nombre">
@@ -150,6 +156,12 @@
                         <li class="breadcrumb-item"><a href="nosotros.html">Nosotros</a></li>
                     </ol>
                 </nav>
+                <div class="__divSocial">
+                    <p class="--p2">Ubicanos en nuestras redes sociales: </p>
+                    <span class="icon-facebook2"></span>
+                    <span class="icon-instagram"></span>
+                    <span class="icon-whatsapp"></span>
+                </div>
             </footer>
         </div>
     </body>

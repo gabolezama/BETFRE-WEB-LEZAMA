@@ -7,14 +7,20 @@
         <link rel="shortcut icon" href="./imagenes/microscopio-3.png" type="image/x-icon">
         <meta name="keywords" content="About Information Contacto">
         <meta name="description" content="Se da a conocer informacion de contacto y general sobre BETFRE">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Mis Estilos -->
         <LINK REL=StyleSheet HREF="./myStyles/genericStyles.css" TYPE="text/css" MEDIA=screen>
         <LINK REL=StyleSheet HREF="./myStyles/queryStyles.css" TYPE="text/css" MEDIA=screen>
         <LINK REL=StyleSheet HREF="./myStyles/gridStyles.css" TYPE="text/css" MEDIA=screen>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Estilos Booststrap -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <!-- Animaciones WOW -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+         <!-- Social -->
+         <link rel="stylesheet" href="/myStyles/font.css">
     </head>
 
     <body>
@@ -24,7 +30,7 @@
                         src="./imagenes/banner_betfre.jpg" alt="Betfre Banner"></a>
             </div>
         </div>
-        <div class="nav">
+        <div class="nav animate__animated animate__bounceInLeft">
             <div class="btn-group ">
                 <div class="btn-group">
                     <button type="button" class="btn btn-mio dropdown-toggle" data-toggle="dropdown" id="drop1">
@@ -49,7 +55,7 @@
                 </div>
             </div>
         </div>
-        <div class="row rowNos">
+        <div class="row rowNos animate__animated animate__bounceInLeft animate__delay-1s">
             <div class="col-sm-5 align-items-start text-justify">
                 <h2 class="--h2">SOBRE NOSOTROS</h2>
                 <p class="--p3">La Unidad de Diagnóstico BETFRE, en la actualidad es una unidad integral de salud
@@ -71,7 +77,7 @@
                     width="80%" height="80%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
-        <div class="row d-flex align-items-start rowNos">
+        <div class="row d-flex align-items-start rowNos animate__animated animate__bounceInLeft animate__delay-2s">
             <div class="col-sm-6 align-items-start text-justify">
                 <h2 class="--h2">CONTACTO</h2>
                 <p>
@@ -83,13 +89,13 @@
             </div>
         </div>
 
-        <div class="__preForm">
+        <div class="__preForm animate__animated animate__bounceInLeft animate__delay-3s">
             <p>¿Tiene alguna duda, consulta o queja sobre nuestra empresa? Por favor llene el siguiente formulario
                 y le estaremos respondiendo a la brevedad posible. ¡Gracias!
             </p>
             <h3>FORMULARIO DE CONTACTO</h3>
         </div>
-        <form id="formulario_contacto" action="" enctype="multipart/form-data">
+        <form class="animate__animated animate__bounceInLeft animate__delay-3s" id="formulario_contacto" action="" enctype="multipart/form-data">
             <div>
                 <label class="--etiq" for="nombre">Nombres:</label>
                 <input type="text" class="form-control" placeholder="Nombre" id="nombre">
@@ -142,6 +148,12 @@
                         <li class="breadcrumb-item"><a href="nosotros.html">Nosotros</a></li>
                     </ol>
                 </nav>
+                <div class="__divSocial">
+                    <p class="--p2">Ubicanos en nuestras redes sociales: </p>
+                    <span class="icon-facebook2"></span>
+                    <span class="icon-instagram"></span>
+                    <span class="icon-whatsapp"></span>
+                </div>
             </footer>
         </div>
     </body>

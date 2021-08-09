@@ -7,14 +7,20 @@
         <meta name="keywords" content="Betfre Noticias">
         <link rel="shortcut icon" href="./imagenes/microscopio-3.png" type="image/x-icon">
         <meta name="description" content="Betfre Noticias, es la seccion donde entregamos a nuestros clientes información del impacto de Betfre en la comunidad">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Mis Estilos -->
         <LINK REL=StyleSheet HREF="./myStyles/genericStyles.css" TYPE="text/css" MEDIA=screen>
         <LINK REL=StyleSheet HREF="./myStyles/queryStyles.css" TYPE="text/css" MEDIA=screen>
         <LINK REL=StyleSheet HREF="./myStyles/gridStyles.css" TYPE="text/css" MEDIA=screen>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Estilos Booststrap -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <!-- Animaciones WOW -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+         <!-- Social -->
+         <link rel="stylesheet" href="/myStyles/font.css">
     </head>
 
     <body>
@@ -22,14 +28,14 @@
             <div class="__aBox">
                 <a class="--aIndex" href="index.html"><img class="img-thumbnail img-fluid" src="./imagenes/banner_betfre.jpg" alt="Betfre Banner"></a>
             </div>
-            <h1 class="--h1">UNIDAD DE DIAGNÓSTICO BETFRE</h1>
-            <p class="--p1">
+            <h1 class="--h1 animate__animated animate__bounceInLeft">UNIDAD DE DIAGNÓSTICO BETFRE</h1>
+            <p class="--p1 animate__animated animate__bounceInLeft">
                 Las Noticias de Betfre son un espacio donde la empresa comparte informaciones de tipo general que
                 intuye pueden ser de interés para sus pacientes, pueden incluir futuros proyectos, compartir
                 satisfacciones, opinion sobre actualidad sanitaria, etc
             </p>
         </div>
-        <div class="nav">
+        <div class="nav animate__animated animate__bounceInLeft animate__delay-1s">
             <div class="btn-group ">
                 <div class="btn-group">
                     <button type="button" class="btn btn-default dropdown-toggle"
@@ -56,23 +62,35 @@
                 </div>
             </div>
         </div>
-        <div class="gridNoticias">
-            <div class="__itemNoticia-1">
-                <h2>Noticia Uno</h2>
-                <p>Los audios son recursos multimedia</p>
+        
+        <div id="carouselExampleIndicators" class="carousel slide animate__animated animate__bounceInLeft animate__delay-2s" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active __textImg">
+                <img class="d-block" src="/imagenes/eco.jfif" alt="First slide">
+                <h5 class="--textUp">Proximamente tendremos servicios de ecografia</h5>
+              </div>
+              <div class="carousel-item __textImg">
+                <img class="d-block" src="/imagenes/cancer_mama.jfif" alt="Second slide">
+                <h5 class="--textUp">Campaña contra el Cancer de Mama</h5>
+              </div>
+              <div class="carousel-item __textImg">
+                <img class="d-block" src="/imagenes/vacunacion.jfif" alt="Third slide">
+                <h5 class="--textUp">Vacunación contra el COVID</h5>
+              </div>
             </div>
-            <div class=" __itemNoticia-2">
-                <h2>Noticia Dos</h2>
-                <p>Los videos tambien son multimedia</p>
-            </div>
-            <div class=" __itemNoticia-3">
-                <h2>Noticia Tres</h2>
-                <p>Descripción de la Noticia</p>
-            </div>
-            <div class=" __itemNoticia-4">
-                <h2>Noticia Cuatro</h2>
-                <p>Descripción de la Noticia</p>
-            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
         </div>
         <div class="__divFooter">
             <footer>
@@ -88,9 +106,14 @@
                     <li class="breadcrumb-item"><a href="cons_medico.html">Consultorio</a></li>
                     <li class="breadcrumb-item"><a href="noticias.html">Noticias</a></li>
                     <li class="breadcrumb-item"><a href="nosotros.html">Nosotros</a></li>
-                    <!-- <li class="breadcrumb-item active" aria-current="page"></li> -->
                     </ol>
                 </nav>
+                <div class="__divSocial">
+                    <p class="--p2">Ubicanos en nuestras redes sociales: </p>
+                    <span class="icon-facebook2"></span>
+                    <span class="icon-instagram"></span>
+                    <span class="icon-whatsapp"></span>
+                </div>
             </footer>
         </div>
         

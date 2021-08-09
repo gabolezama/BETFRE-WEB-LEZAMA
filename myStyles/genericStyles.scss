@@ -39,16 +39,6 @@ form{
     padding: 5px;
     row-gap: 10px;
 }
-/* Efecto arcoris sobre formulario*/
-//Realizo un EACH sobre un array y con los datos del array 
-//controlo la llamada de los colores desde la variable mapa
-//            $i:1;
-//            @each $color in $arrayColores{
-//              .__field-#{$i}{
-//                    background-color: map-get($mapaColores, $color);
-//                }
-//                $i: $i + 1
-//            } 
     
 .divWhite{
     display: flex;
@@ -63,14 +53,9 @@ form{
         .--aLab, .--aCons, .--aIndex{
             display: flex;
             justify-content: center;
-            img{
-                // width: 70%; /*desactivo medidas para que la clase img-fluid de bootstrap*/
-                // height: 90%;/*tenga su efecto y las imagenes del banner no se pixelen*/
-                }
         }
     }
     .--h1{
-        
         color: purple;
     }
     
@@ -78,18 +63,10 @@ form{
         padding-bottom: 0px;
         text-align: justify;
         font-family: Arial, Helvetica, sans-serif;
-
+        --animate-delay: 5s;
     }
     a:hover{
-        
         animation: wiggle 1s ;
-    }
-    @keyframes wiggle {
-        0% { transform: translateX(.5rem); }
-       80% { transform: translateX(-.5rem); }
-       85% { transform: translateX(.5rem); }
-       95% { transform: translateX(-.5rem); }
-      100% { transform: translateX(0rem); }
     }
 } 
 .__divFooter{
@@ -101,14 +78,27 @@ form{
     footer{
         padding-top: 15px;
         padding-bottom: 10px;
-        width: 95%;
-                    
+        width: 95%;        
         .--p2{
             text-align: center;
             width: 90%;
             margin-left: 5%;
+            color: black;
+        }
+        .breadcrumb{
+            margin: 0px 0px 10px 0px;
+            padding: 0%;
+        }
+        a{
+            color: black;
         }
     }
+    .__divSocial{
+        
+        .icon-facebook2::before, .icon-instagram::before, .icon-whatsapp::before{
+            margin: 0px 10px 5px 0px;
+            }
+        }
 }
 .rowNos{
     width: 90%;
@@ -119,9 +109,9 @@ form{
 
 
 .nav{
-    
     color: White;
     background-color: #444;
+
     .btn{
         text-decoration: none;
             color: white !important;
@@ -147,43 +137,23 @@ form{
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-    
     /*Utilizo una variable mapa para llamar los colores que contiene 
      para afectar clases de Bootstrap*/
     .col-sm-6, .col-sm-5, .col-sm-4{
         animation-duration: 7s;
         animation-name: rainbow;
         animation-iteration-count: 1;   
-    }
-        @keyframes rainbow {
-                0%{
-                    background-color: map-get($mapaColores, rojo );
-                }
-                20%{
-                    background-color: map-get($mapaColores, naranja ); 
-                }
-                35%{  
-                    background-color: map-get($mapaColores, amarillo );    
-                }
-                50%{
-                    background-color: map-get($mapaColores, agua); 
-                }
-                65%{
-                    background-color: map-get($mapaColores, verde); 
-                }
-                80%{
-                    background-color: map-get($mapaColores, azul); 
-                }
-                100%{ 
-                    background-color: map-get($mapaColores, morado);  
-                } 
+    }   
+    .__divIndex{
+        img{
+            border-radius: 10px;
         }
-    
+    }
 }
 .__rowContacto{
     width: 80%;
 }
-.itemEfecto{
+.--itemEfecto{
     width: 30%;
     height: 30%;
     &:hover{
@@ -191,3 +161,25 @@ form{
        }
 }
 
+#carouselExampleIndicators{
+    margin-top: 3rem;
+    text-align: center;
+    .__textImg{
+
+        .--textUp{
+            position: absolute;
+            z-index: -1;
+        }
+    }
+    &:hover{
+        .--textUp{
+            font-size: 3rem;
+            position: absolute;
+            top: 15%;
+            left: 40%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+        }
+    }
+
+}
