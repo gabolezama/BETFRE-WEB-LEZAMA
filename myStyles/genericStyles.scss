@@ -136,14 +136,7 @@ form{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: center;
-    /*Utilizo una variable mapa para llamar los colores que contiene 
-     para afectar clases de Bootstrap*/
-    .col-sm-6, .col-sm-5, .col-sm-4{
-        animation-duration: 7s;
-        animation-name: rainbow;
-        animation-iteration-count: 1;   
-    }   
+    justify-content: center;   
     .__divIndex{
         img{
             border-radius: 10px;
@@ -152,13 +145,6 @@ form{
 }
 .__rowContacto{
     width: 80%;
-}
-.--itemEfecto{
-    width: 30%;
-    height: 30%;
-    &:hover{
-        filter: sepia(70%);
-       }
 }
 
 #carouselExampleIndicators{
