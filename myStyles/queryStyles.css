@@ -1,0 +1,530 @@
+@media (min-width: 320px) {
+  .col-sm-5 .--p3 {
+    padding-bottom: 0px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .col-sm-5 iframe {
+    width: "90%";
+    height: "35%";
+  }
+  .row {
+    margin-top: 20px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .row .__divIndex {
+    margin: 10px;
+    text-align: center;
+  }
+  .row .__divIndex .--imgIndex {
+    width: 90%;
+    height: 5rem;
+  }
+  .nav {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .nav .bnt {
+    border: solid white;
+    color: white;
+  }
+  .nav .bnt li a {
+    text-decoration: none;
+    color: black;
+  }
+  .divWhite {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .divWhite .--h1 {
+    margin-top: .5rem;
+    font-size: 1rem;
+  }
+  .divWhite .__aBox {
+    width: 100%;
+    height: 10rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .divWhite .__aBox .--aLab, .divWhite .__aBox .--aIndex, .divWhite .__aBox .--aCons {
+    width: 90%;
+    height: 80%;
+  }
+  .divWhite .--p1 {
+    width: 100%;
+    font-size: .8rem;
+  }
+  form {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (90%)[1];
+        grid-template-columns: repeat(1, 90%);
+    -ms-grid-rows: (10%)[9];
+        grid-template-rows: repeat(9, 10%);
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    margin-left: 15%;
+    width: 80%;
+  }
+  form div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+  }
+  form div .__selector {
+    height: 50%;
+    width: 100%;
+  }
+  form div p {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  form div .--radioWrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  form div textarea {
+    width: 100%;
+    height: 100%;
+  }
+  form .__button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    height: 60%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-left: 2px;
+  }
+  .__preForm {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: .9rem;
+    text-align: center;
+  }
+  .__divFooter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    font-size: .5rem;
+  }
+  .__divFooter footer .--p2 {
+    margin-right: 1%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .__divFooter footer .breadcrumb {
+    background-color: transparent;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .__divFooter footer .breadcrumb a {
+    color: black;
+    text-decoration: none;
+  }
+  body .--h4 {
+    font-size: 1rem;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .gridLc {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-grid-columns: (90%)[1];
+        grid-template-columns: repeat(1, 90%);
+    -ms-grid-rows: (15%)[6];
+        grid-template-rows: repeat(6, 15%);
+    margin-left: 5%;
+    margin-top: 4rem;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .gridLc div {
+    width: 70%;
+    height: 70%;
+  }
+  .gridLc div .__uno, .gridLc div .__dos, .gridLc div .__tres, .gridLc div .__cuatro, .gridLc div .__cinco, .gridLc div .__seis {
+    width: 25%;
+    height: 25%;
+    margin-left: 5%;
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .gridLc .--itemEfecto .--titulo {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin-left: -200px;
+    margin-top: 15px;
+    -webkit-transition: margin-left 0.3s;
+    transition: margin-left 0.3s;
+    overflow: hidden;
+  }
+  .gridLc .--itemEfecto .--descripcion {
+    font-size: .9rem;
+    margin-top: 210px;
+    -webkit-transition: margin-top 0.4s;
+    transition: margin-top 0.4s;
+    overflow: hidden;
+  }
+  .gridLc .--itemEfecto:hover .--descripcion {
+    margin-top: 40px;
+  }
+  .gridLc .--itemEfecto:hover .--titulo {
+    margin-left: 20px;
+  }
+  #carouselExampleIndicators {
+    margin-left: 10%;
+    height: 90%;
+    width: 80%;
+  }
+  #carouselExampleIndicators .carousel-inner {
+    margin-left: 10%;
+  }
+  #carouselExampleIndicators .carousel-inner img {
+    width: 80%;
+    height: 30%;
+  }
+  #carouselExampleIndicators:hover .--textUp {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 600px) {
+  col-sm-5 .--p3 {
+    padding-bottom: 0px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  col-sm-5 iframe {
+    width: "90%";
+    height: "60%";
+  }
+  .row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    margin-top: 4rem;
+  }
+  .row .__divIndex {
+    width: 100%;
+  }
+  .row .__divIndex .--imgIndex:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(0.9);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .gridLc {
+    margin-left: 10%;
+    -ms-grid-columns: (20rem)[2];
+        grid-template-columns: repeat(2, 20rem);
+    -ms-grid-rows: (15rem)[3];
+        grid-template-rows: repeat(3, 15rem);
+  }
+  .gridLc div {
+    width: 80%;
+    height: 100%;
+  }
+  .gridLc div .__uno, .gridLc div .__tres, .gridLc div .__cinco {
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .gridLc div .__uno img, .gridLc div .__tres img, .gridLc div .__cinco img {
+    width: 90%;
+    height: 90%;
+  }
+  .gridLc div .__dos, .gridLc div .__cuatro, .gridLc div .__seis {
+    margin-left: 10%;
+    -ms-grid-column: 2;
+        grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  form {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (90%)[1];
+        grid-template-columns: repeat(1, 90%);
+    -ms-grid-rows: (4rem)[9];
+        grid-template-rows: repeat(9, 4rem);
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  form div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    width: 100%;
+  }
+  form div .__selector {
+    height: 2.5rem;
+    width: 100%;
+  }
+  form div .--etiq {
+    width: 60%;
+  }
+  form div .--etiqPrioridad {
+    width: 80%;
+  }
+  form div p {
+    text-align: center;
+  }
+  form .__explicar {
+    width: 100%;
+    height: 100%;
+  }
+  .__divFooter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    font-size: .8rem;
+  }
+  .__divFooter footer .breadcrumb {
+    background-color: transparent;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .__divFooter footer .breadcrumb a {
+    color: black;
+    text-decoration: none;
+  }
+  .__divFooter footer .--p2 {
+    margin-right: 1%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .--h4 {
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  .divWhite .__aBox {
+    width: 100%;
+    height: 15rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .divWhite .__aBox .--aLab, .divWhite .__aBox .--aIndex, .divWhite .__aBox .--aCons {
+    margin-left: 1.6rem;
+    width: 80%;
+    height: 100%;
+  }
+  .divWhite .--p1 {
+    margin-left: 1.5rem;
+    width: 95%;
+    font-size: .8rem;
+  }
+  #carouselExampleIndicators:hover .--textUp {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  col-sm-5 .--p3 {
+    padding-bottom: 0px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  col-sm-5 iframe {
+    width: "90%";
+    height: "90%";
+  }
+  .nav {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    margin-bottom: 4rem;
+  }
+  .gridLc {
+    -ms-grid-columns: (20rem)[3];
+        grid-template-columns: repeat(3, 20rem);
+    -ms-grid-rows: (15rem)[2];
+        grid-template-rows: repeat(2, 15rem);
+  }
+  .gridLc .__uno, .gridLc .__cuatro {
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .gridLc .__dos, .gridLc .__cinco {
+    -ms-grid-column: 2;
+        grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  .gridLc .__tres, .gridLc .__seis {
+    -ms-grid-column: 3;
+        grid-column-start: 3;
+    grid-column-end: 4;
+  }
+  .divWhite {
+    text-align: justify;
+  }
+  .divWhite .--h1 {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    text-align: left;
+    font-size: 2rem;
+  }
+  .divWhite .__aBox {
+    width: 100%;
+    height: 15rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .divWhite .__aBox .--aLab, .divWhite .__aBox .--aIndex, .divWhite .__aBox .--aCons {
+    width: 100%;
+    height: 100%;
+  }
+  .divWhite .--p1 {
+    text-align: justify;
+    margin-left: 2rem;
+    width: 50%;
+    font-size: .8rem;
+  }
+  form {
+    -ms-grid-columns: (70%)[1];
+        grid-template-columns: repeat(1, 70%);
+    -ms-grid-rows: (10%)[9];
+        grid-template-rows: repeat(9, 10%);
+    margin-left: 20%;
+  }
+  form div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  form div .__selector {
+    height: 80%;
+    width: 70%;
+  }
+  form div .--etiq {
+    margin-right: 10px;
+    width: 12rem;
+  }
+  form div .--etiqPrioridad {
+    margin-right: 10wv;
+  }
+  form textarea {
+    padding: 5px 10px;
+    margin: 5px 10px;
+  }
+  form .__button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 60%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-left: 20px;
+  }
+  .row {
+    margin-top: 4rem;
+  }
+  .row .__divIndex {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .row .__divIndex .--imgIndex {
+    padding: 5px;
+    width: 100%;
+    height: 15rem;
+  }
+  .row .__divIndex .--imgIndex:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(0.9);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  #carouselExampleIndicators {
+    margin-left: 10%;
+    width: 90%;
+  }
+  #carouselExampleIndicators .carousel-inner img {
+    width: 80%;
+    height: 25rem;
+  }
+  #carouselExampleIndicators:hover .--textUp {
+    font-size: 3rem;
+  }
+  .__divFooter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+}
+/*# sourceMappingURL=queryStyles.css.map */

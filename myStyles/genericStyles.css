@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Allison&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: dodgerblue;
+  background: radial-gradient(white, dodgerblue);
+}
+
+body .--h2 {
+  padding: 0%;
+  color: purple;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body .--h4 {
+  text-align: center;
+  padding: 20px 20px;
+}
+
+body .splash {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #56CCF2;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#2F80ED), to(#56CCF2));
+  background: linear-gradient(to right, #2F80ED, #56CCF2);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  z-index: 200;
+  color: white;
+  text-align: center;
+  font-family: 'Allison', cursive;
+}
+
+body .splash h1 {
+  margin-top: 10rem;
+  font-size: 5rem;
+}
+
+body .splash.display-none {
+  opacity: 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #56CCF2;
+  /* fallback for old brows */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#2F80ED), to(#56CCF2));
+  background: linear-gradient(to right, #2F80ED, #56CCF2);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  z-index: -10;
+  color: white;
+  text-align: center;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  font-family: 'Allison', cursive;
+}
+
+body .splash.display-none h1 {
+  margin-top: 10rem;
+  font-size: 5rem;
+}
+
+body .fade-in {
+  opacity: 0;
+  -webkit-animation: fadeIn 1s ease-in forwards;
+          animation: fadeIn 1s ease-in forwards;
+}
+
+@-webkit-keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.__preForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.__preForm p, .__preForm h3 {
+  padding: 10px;
+}
+
+form {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5px;
+  row-gap: 10px;
+}
+
+.divWhite {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  background-color: white;
+  padding: 10px 20px;
+}
+
+.divWhite .__aBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.divWhite .__aBox .--aLab, .divWhite .__aBox .--aCons, .divWhite .__aBox .--aIndex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.divWhite .--h1 {
+  color: purple;
+}
+
+.divWhite .--p1 {
+  padding-bottom: 0px;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  --animate-delay: 5s;
+}
+
+.divWhite a:hover {
+  -webkit-animation: wiggle 1s;
+          animation: wiggle 1s;
+}
+
+.__divFooter {
+  background-color: rosybrown;
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.__divFooter footer {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  width: 95%;
+}
+
+.__divFooter footer .--p2 {
+  text-align: center;
+  width: 90%;
+  margin-left: 5%;
+  color: black;
+}
+
+.__divFooter footer .breadcrumb {
+  margin: 0px 0px 10px 0px;
+  padding: 0%;
+}
+
+.__divFooter footer a {
+  color: black;
+}
+
+.__divFooter .__divSocial .icon-facebook2::before, .__divFooter .__divSocial .icon-instagram::before, .__divFooter .__divSocial .icon-whatsapp::before {
+  margin: 0px 10px 5px 0px;
+}
+
+.rowNos {
+  width: 90%;
+  padding-top: 15px !important;
+  margin-left: 15px !important;
+  font-size: 0.9rem;
+}
+
+.nav {
+  color: White;
+  background-color: #444;
+}
+
+.nav .btn {
+  text-decoration: none;
+  color: white !important;
+}
+
+.nav .btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.row .__divIndex img {
+  border-radius: 10px;
+}
+
+.__rowContacto {
+  width: 80%;
+}
+
+#carouselExampleIndicators {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+#carouselExampleIndicators .__textImg .--textUp {
+  position: absolute;
+  z-index: -1;
+  font-family: 'Allison', cursive;
+}
+
+#carouselExampleIndicators:hover .--textUp {
+  font-size: 3rem;
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-family: 'Allison', cursive;
+  z-index: 2;
+}
+/*# sourceMappingURL=genericStyles.css.map */
